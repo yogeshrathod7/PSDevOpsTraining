@@ -1,0 +1,13 @@
+
+1.cd ~/home/scott 
+Ans:-cd ~ (or cd /home/scott)
+
+2.LS /home
+Ans:-ls /home
+
+3.mv ~/log.tar.gz home scott
+Ans:-mv ~/log.tar.gz /home/scott
+
+4.chow ~/log.tar.gz
+Ans:-chow 644 ~/log.tar.gz(or other mode)
+

@@ -1,0 +1,12 @@
+Create text file
+Ans:-$ vi mynewfile
+
+Ensure any user can read and write it
+Ans:-$stat mynewfile
+     $ chmod a+rw mynewfile
+     $ stat mynewfile
+    
+compress the file using  tar or zip
+Ans:-$ tar -czf mynewfile.tgz mynewfile
+     $ ls -lh mynewfile.tgz
+     

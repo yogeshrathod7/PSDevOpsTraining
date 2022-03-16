@@ -1,0 +1,11 @@
+1.What does the command stat mylife.txt do?
+Ans:-Using man stat,we can discover that it will show file statistics for myfile.txt
+
+2.What does the command df -h /do?
+Ans:-Using man df,we can discover it shows disk utilization of root file system in a human-readable way
+
+3.What command would i use to search for files in a directory hierarchy?
+Ans:-Using apropos "search for files",we can see the find command
+
+4.Which option would i use with ls command to output a comma-separated list of files and directories?
+Ans:-Using man ls,we can find the -m option to show the outout in a comma-separated list
