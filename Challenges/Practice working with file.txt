@@ -1,0 +1,20 @@
+Create files with touch command, or make copies of existing file.
+solution:
+$ touch file1
+$ cp samplefile file1 
+
+other commands practices with file1:
+
+$ mv file1.txt departments/markrting      -> moving file 
+$ cat file1.txt                           -> linking file
+$ head file1.txt                          -> first 10 lines of file
+$ head -n5 file1.txt                      -> first 5 lines of file
+$ tail file1.txt                          -> last 10 lines of file
+$ tail -n3 file1.txt                      -> last 3 lines of file
+$ cat file1.txt | cat -n | tail -n5       -> last 5 lines respective of its own line number 
+$ cat file1.txt | tail -n5 | cat -n       -> last 5 lines with starting from 1
+$ grep -n "the" file1.txt                 -> searching for word "the" in file with its line number along with line also. 
+$ grep -vi "the" file1.txt                -> drops the line containing "the"
+$ grep -E "[hijk] file1.txt               -> regular expression the line contains the charecters
+$ grep -E "\W{6,}" file1.txt              -> all of 6 charecter longer words got highlighted
+$ rm file1.txt                            -> removing file1.txt
